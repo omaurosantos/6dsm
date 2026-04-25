@@ -1,0 +1,134 @@
+/* Remove margens e espaçamentos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Define o fundo da página e centraliza o conteúdo */
+body {
+    background-color: #f2f4f8;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container principal da página */
+.container {
+    width: 100%;
+    max-width: 440px;
+    padding: 20px;
+}
+
+/* Card branco onde fica o formulário de login */
+.card-login {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Título principal do login */
+.card-login h1 {
+    font-size: 28px;
+    color: #222222;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Texto explicativo abaixo do título */
+.subtitulo {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+/* Caixa com os dados de teste para facilitar a aula */
+.dados-teste {
+    background-color: #eef6ff;
+    border: 1px solid #b8d9ff;
+    color: #1d3557;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 22px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Estilo visual para pequenos trechos de código, como admin e 123456 */
+.dados-teste code {
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Espaçamento entre os campos do formulário */
+.grupo-campo {
+    margin-bottom: 18px;
+}
+
+/* Texto acima dos campos */
+.grupo-campo label {
+    display: block;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Aparência dos campos de texto e senha */
+.grupo-campo input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Aparência do campo quando o usuário clica nele */
+.grupo-campo input:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+/* Botão principal de entrar */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Efeito visual quando o mouse passa sobre o botão */
+button:hover {
+    background-color: #004f99;
+}
+
+/* Área onde aparece mensagem de erro ou sucesso */
+.mensagem {
+    margin-top: 18px;
+    min-height: 22px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Classe usada quando a mensagem for de erro */
+.erro {
+    color: #cc0000;
+}
+
+/* Classe usada quando a mensagem for de sucesso */
+.sucesso {
+    color: #008000;
+}

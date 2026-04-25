@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Define que este arquivo usa HTML5 -->
+<html lang="pt-BR">
+<!-- Define que o idioma principal da página é português do Brasil -->
+
+<head>
+    <!-- Área de configurações da página -->
+
+    <meta charset="UTF-8">
+    <!-- Permite que acentos e caracteres especiais apareçam corretamente -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz a tela se adaptar melhor em computador, tablet e celular -->
+
+    <title>Sistema de Login para Testes</title>
+    <!-- Título que aparece na aba do navegador -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Liga este HTML ao arquivo CSS, que cuida da aparência da página -->
+</head>
+
+<body>
+    <!-- Corpo da página, onde ficam os elementos visíveis para o usuário -->
+
+    <main class="container">
+        <!-- Container principal usado para centralizar o card de login na tela -->
+
+        <section class="card-login">
+            <!-- Card visual que contém o formulário de login -->
+
+            <h1>Sistema de Login</h1>
+            <!-- Título principal da tela -->
+
+            <p class="subtitulo">
+                Use este projeto para praticar testes manuais e testes automatizados.
+            </p>
+            <!-- Texto explicativo para o usuário -->
+
+            <div class="dados-teste">
+                <!-- Caixa apenas para a aula, mostrando os dados corretos de acesso -->
+                <strong>Dados para teste:</strong><br>
+                Usuário: <code>admin</code><br>
+                Senha: <code>123456</code>
+            </div>
+
+            <form id="formLogin">
+                <!-- Formulário de login. Ele agrupa os campos e o botão -->
+
+                <div class="grupo-campo">
+                    <!-- Grupo do campo usuário -->
+
+                    <label for="usuario">Usuário</label>
+                    <!-- Texto que identifica o campo usuário -->
+
+                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário">
+                    <!-- Campo onde o usuário digita o login -->
+                </div>
+
+                <div class="grupo-campo">
+                    <!-- Grupo do campo senha -->
+
+                    <label for="senha">Senha</label>
+                    <!-- Texto que identifica o campo senha -->
+
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                    <!-- Campo onde o usuário digita a senha -->
+                    <!-- type="password" faz a senha ficar escondida na tela -->
+                </div>
+
+                <button type="submit" id="btnEntrar">
+                    Entrar
+                </button>
+                <!-- Botão que tenta realizar o login -->
+            </form>
+
+            <div id="mensagem" class="mensagem" aria-live="polite">
+                <!-- Área onde será exibida a mensagem de erro ou sucesso -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <!-- Liga este HTML ao arquivo JavaScript, que contém as regras do login -->
+</body>
+
+</html>
