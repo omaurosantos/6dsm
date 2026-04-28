@@ -1,0 +1,1 @@
+Professor, esse não deu pra tirar print na tela da prova porque não mostra o nome do curso lá (esse curso a prova é feito numa aba externa).
