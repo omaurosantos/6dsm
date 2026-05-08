@@ -1,7 +1,7 @@
 // Importa os recursos de teste e validação do Playwright
 const { test, expect } = require('@playwright/test');
 // Endereço da página que será testada
-const urlLogin = 'http://127.0.0.1:5500/index.html';
+const urlLogin = 'http://127.0.0.1:5500/produtos.html';
 // Caso de teste automatizado para login válido
 test('CT01 - Login válido', async ({ page }) => {
  // Abre a página de login no navegador controlado pelo Playwright
