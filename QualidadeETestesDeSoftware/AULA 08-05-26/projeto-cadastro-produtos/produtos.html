@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- Define que o documento usa HTML5 -->
+<html lang="pt-BR">
+<!-- Define o idioma da página como português do Brasil -->
+
+<head>
+    <!-- Área de configuração da página -->
+    <meta charset="UTF-8">
+    <!-- Permite usar acentos e caracteres especiais corretamente -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz a tela se adaptar em computador, tablet e celular -->
+
+    <title>Cadastro de Produtos</title>
+    <!-- Título que aparece na aba do navegador -->
+
+    <link rel="stylesheet" href="produtos.css">
+    <!-- Chama o arquivo CSS responsável pela aparência da tela -->
+</head>
+
+<body>
+    <!-- Corpo da página, onde aparece o conteúdo visual -->
+
+    <main class="pagina">
+        <!-- Área principal da página -->
+
+        <section class="card-formulario">
+            <!-- Caixa principal do formulário -->
+
+            <header class="cabecalho">
+                <!-- Cabeçalho da tela -->
+
+                <h1>Cadastro de Produtos</h1>
+                <!-- Título principal da página -->
+
+                <p>Preencha os dados abaixo para cadastrar um produto no sistema.</p>
+                <!-- Texto explicativo da tela -->
+            </header>
+
+            <form id="formProduto">
+                <!-- Formulário de cadastro de produtos -->
+
+                <div class="linha-formulario">
+                    <!-- Linha que organiza campos lado a lado -->
+
+                    <div class="grupo-campo campo-grande">
+                        <!-- Grupo do campo nome do produto -->
+
+                        <label for="nomeProduto">Nome do produto</label>
+                        <!-- Texto que identifica o campo -->
+
+                        <input type="text" id="nomeProduto" name="nomeProduto" placeholder="Exemplo: Mouse sem fio">
+                        <!-- Campo onde o usuário digita o nome do produto -->
+                    </div>
+
+                    <div class="grupo-campo campo-medio">
+                        <!-- Grupo do campo categoria -->
+
+                        <label for="categoria">Categoria</label>
+                        <!-- Texto que identifica o campo -->
+
+                        <select id="categoria" name="categoria">
+                            <!-- Campo de seleção da categoria -->
+                            <option value="">Selecione</option>
+                            <option value="Eletrônicos">Eletrônicos</option>
+                            <option value="Beleza">Beleza</option>
+                            <option value="Casa">Casa</option>
+                            <option value="Brinquedos">Brinquedos</option>
+                            <option value="Acessórios">Acessórios</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="linha-formulario">
+                    <!-- Linha que organiza preço, quantidade e status -->
+
+                    <div class="grupo-campo campo-pequeno">
+                        <!-- Grupo do campo preço -->
+
+                        <label for="preco">Preço</label>
+                        <!-- Texto que identifica o campo -->
+
+                        <input type="number" id="preco" name="preco" placeholder="Exemplo: 59.90" step="0.01">
+                        <!-- Campo onde o usuário digita o preço do produto -->
+                    </div>
+
+                    <div class="grupo-campo campo-pequeno">
+                        <!-- Grupo do campo quantidade -->
+
+                        <label for="quantidade">Quantidade em estoque</label>
+                        <!-- Texto que identifica o campo -->
+
+                        <input type="number" id="quantidade" name="quantidade" placeholder="Exemplo: 10">
+                        <!-- Campo onde o usuário digita a quantidade em estoque -->
+                    </div>
+
+                    <div class="grupo-campo campo-pequeno">
+                        <!-- Grupo do campo status -->
+
+                        <label for="status">Status do produto</label>
+                        <!-- Texto que identifica o campo -->
+
+                        <select id="status" name="status">
+                            <!-- Campo de seleção do status -->
+                            <option value="">Selecione</option>
+                            <option value="Ativo">Ativo</option>
+                            <option value="Inativo">Inativo</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grupo-campo">
+                    <!-- Grupo do campo descrição -->
+
+                    <label for="descricao">Descrição</label>
+                    <!-- Texto que identifica o campo -->
+
+                    <textarea id="descricao" name="descricao" rows="5" placeholder="Digite uma breve descrição do produto"></textarea>
+                    <!-- Campo onde o usuário digita a descrição do produto -->
+                </div>
+
+                <div id="mensagem" class="mensagem">
+                    <!-- Área onde será exibida mensagem de sucesso ou erro -->
+                </div>
+
+                <div class="area-botoes">
+                    <!-- Área dos botões do formulário -->
+
+                    <button type="button" id="btnSalvar" class="botao-salvar">Salvar produto</button>
+                    <!-- Botão usado para salvar o produto -->
+
+                    <button type="reset" id="btnLimpar" class="botao-limpar">Limpar formulário</button>
+                    <!-- Botão usado para limpar os campos do formulário -->
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="produtos.js"></script>
+    <!-- Chama o arquivo JavaScript responsável pelas validações da tela -->
+</body>
+
+</html>

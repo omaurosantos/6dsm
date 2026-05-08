@@ -1,0 +1,15 @@
+{
+  "name": "projeto-cadastro-produtos",
+  "version": "1.0.0",
+  "description": "Este projeto foi criado para aula prática de Qualidade e Testes de Software.",
+  "main": "produtos.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.2"
+  }
+}

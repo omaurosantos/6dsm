@@ -1,0 +1,345 @@
+/* Remove margens e espaçamentos padrão de todos os elementos */
+* {
+    margin: 0;
+    /* Remove a margem externa padrão */
+
+    padding: 0;
+    /* Remove o espaçamento interno padrão */
+
+    box-sizing: border-box;
+    /* Faz largura e altura incluírem borda e padding */
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define uma fonte simples e comum */
+}
+
+/* Define o estilo geral da página */
+body {
+    background-color: #eef2f7;
+    /* Define a cor de fundo da página */
+
+    min-height: 100vh;
+    /* Faz o corpo ocupar no mínimo a altura total da tela */
+
+    color: #222222;
+    /* Define a cor padrão dos textos */
+}
+
+/* Área principal da tela */
+.pagina {
+    width: 100%;
+    /* Faz a área ocupar toda a largura disponível */
+
+    min-height: 100vh;
+    /* Faz a área ocupar no mínimo toda a altura da tela */
+
+    display: flex;
+    /* Usa flexbox para organizar o conteúdo */
+
+    align-items: center;
+    /* Centraliza verticalmente o conteúdo */
+
+    justify-content: center;
+    /* Centraliza horizontalmente o conteúdo */
+
+    padding: 30px;
+    /* Cria espaço interno ao redor do conteúdo */
+}
+
+/* Caixa principal do formulário */
+.card-formulario {
+    width: 100%;
+    /* Faz o card ocupar a largura disponível */
+
+    max-width: 950px;
+    /* Define uma largura máxima para o card */
+
+    background-color: #ffffff;
+    /* Define o fundo branco do card */
+
+    border-radius: 14px;
+    /* Arredonda as bordas do card */
+
+    padding: 35px;
+    /* Cria espaço interno dentro do card */
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    /* Cria sombra suave ao redor do card */
+}
+
+/* Cabeçalho da tela */
+.cabecalho {
+    margin-bottom: 30px;
+    /* Cria espaço abaixo do cabeçalho */
+
+    text-align: center;
+    /* Centraliza o texto do cabeçalho */
+}
+
+/* Título principal */
+.cabecalho h1 {
+    font-size: 30px;
+    /* Define o tamanho do título */
+
+    color: #1f2937;
+    /* Define a cor do título */
+
+    margin-bottom: 10px;
+    /* Cria espaço abaixo do título */
+}
+
+/* Texto explicativo do cabeçalho */
+.cabecalho p {
+    font-size: 15px;
+    /* Define o tamanho do texto */
+
+    color: #6b7280;
+    /* Define uma cor cinza para o texto */
+}
+
+/* Linha do formulário */
+.linha-formulario {
+    display: flex;
+    /* Coloca os campos lado a lado */
+
+    gap: 20px;
+    /* Cria espaço entre os campos */
+
+    margin-bottom: 20px;
+    /* Cria espaço abaixo da linha */
+
+    flex-wrap: wrap;
+    /* Permite quebrar linha em telas menores */
+}
+
+/* Grupo de campo */
+.grupo-campo {
+    width: 100%;
+    /* Faz o grupo ocupar toda a largura disponível */
+
+    margin-bottom: 20px;
+    /* Cria espaço abaixo de cada grupo */
+}
+
+/* Campo maior usado para nome */
+.campo-grande {
+    flex: 2;
+    /* Faz esse campo ocupar mais espaço que os outros */
+
+    min-width: 280px;
+    /* Define uma largura mínima */
+}
+
+/* Campo médio usado para categoria */
+.campo-medio {
+    flex: 1;
+    /* Faz esse campo ocupar uma parte da linha */
+
+    min-width: 220px;
+    /* Define uma largura mínima */
+}
+
+/* Campo pequeno usado para preço, quantidade e status */
+.campo-pequeno {
+    flex: 1;
+    /* Faz os campos ocuparem tamanhos semelhantes */
+
+    min-width: 190px;
+    /* Define uma largura mínima */
+}
+
+/* Texto dos campos */
+.grupo-campo label {
+    display: block;
+    /* Faz o label ocupar uma linha inteira */
+
+    font-size: 14px;
+    /* Define o tamanho do texto */
+
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+
+    color: #374151;
+    /* Define a cor do label */
+
+    margin-bottom: 7px;
+    /* Cria espaço entre o label e o campo */
+}
+
+/* Campos de texto, número, seleção e área de texto */
+.grupo-campo input,
+.grupo-campo select,
+.grupo-campo textarea {
+    width: 100%;
+    /* Faz o campo ocupar toda a largura do grupo */
+
+    padding: 12px;
+    /* Cria espaço interno dentro do campo */
+
+    border: 1px solid #cbd5e1;
+    /* Define a borda do campo */
+
+    border-radius: 8px;
+    /* Arredonda as bordas do campo */
+
+    font-size: 15px;
+    /* Define o tamanho do texto digitado */
+
+    color: #111827;
+    /* Define a cor do texto digitado */
+
+    background-color: #ffffff;
+    /* Define o fundo branco do campo */
+
+    outline: none;
+    /* Remove a borda padrão ao clicar */
+}
+
+/* Quando o usuário clica em um campo */
+.grupo-campo input:focus,
+.grupo-campo select:focus,
+.grupo-campo textarea:focus {
+    border-color: #2563eb;
+    /* Muda a cor da borda ao focar */
+
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    /* Cria destaque visual ao redor do campo */
+}
+
+/* Área de texto da descrição */
+.grupo-campo textarea {
+    resize: vertical;
+    /* Permite redimensionar a altura da descrição */
+
+    min-height: 120px;
+    /* Define uma altura mínima */
+}
+
+/* Área onde aparece mensagem */
+.mensagem {
+    min-height: 24px;
+    /* Reserva espaço mesmo sem mensagem */
+
+    margin-bottom: 20px;
+    /* Cria espaço abaixo da mensagem */
+
+    font-size: 15px;
+    /* Define o tamanho da mensagem */
+
+    font-weight: bold;
+    /* Deixa a mensagem em negrito */
+
+    text-align: center;
+    /* Centraliza o texto da mensagem */
+}
+
+/* Mensagem de erro */
+.mensagem.erro {
+    color: #dc2626;
+    /* Define cor vermelha para erro */
+}
+
+/* Mensagem de sucesso */
+.mensagem.sucesso {
+    color: #15803d;
+    /* Define cor verde para sucesso */
+}
+
+/* Área dos botões */
+.area-botoes {
+    display: flex;
+    /* Coloca os botões lado a lado */
+
+    justify-content: flex-end;
+    /* Alinha os botões à direita */
+
+    gap: 15px;
+    /* Cria espaço entre os botões */
+
+    flex-wrap: wrap;
+    /* Permite quebrar os botões em telas pequenas */
+}
+
+/* Estilo geral dos botões */
+.area-botoes button {
+    padding: 12px 22px;
+    /* Cria espaço interno no botão */
+
+    border: none;
+    /* Remove a borda padrão */
+
+    border-radius: 8px;
+    /* Arredonda as bordas do botão */
+
+    font-size: 15px;
+    /* Define o tamanho do texto */
+
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+
+    cursor: pointer;
+    /* Mostra a mãozinha ao passar o mouse */
+
+    transition: 0.2s;
+    /* Cria uma transição suave */
+}
+
+/* Botão salvar */
+.botao-salvar {
+    background-color: #2563eb;
+    /* Define a cor azul do botão */
+
+    color: #ffffff;
+    /* Define a cor branca do texto */
+}
+
+/* Efeito ao passar o mouse no botão salvar */
+.botao-salvar:hover {
+    background-color: #1d4ed8;
+    /* Escurece o azul ao passar o mouse */
+}
+
+/* Botão limpar */
+.botao-limpar {
+    background-color: #e5e7eb;
+    /* Define uma cor cinza clara */
+
+    color: #374151;
+    /* Define a cor do texto */
+}
+
+/* Efeito ao passar o mouse no botão limpar */
+.botao-limpar:hover {
+    background-color: #d1d5db;
+    /* Escurece o cinza ao passar o mouse */
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 700px) {
+    /* Ajusta o card em telas pequenas */
+    .card-formulario {
+        padding: 25px;
+        /* Reduz o espaço interno do card */
+    }
+
+    /* Ajusta o título em telas pequenas */
+    .cabecalho h1 {
+        font-size: 24px;
+        /* Reduz o tamanho do título */
+    }
+
+    /* Ajusta a área dos botões em telas pequenas */
+    .area-botoes {
+        flex-direction: column;
+        /* Coloca os botões um embaixo do outro */
+
+        align-items: stretch;
+        /* Faz os botões ocuparem a largura total */
+    }
+
+    /* Ajusta os botões em telas pequenas */
+    .area-botoes button {
+        width: 100%;
+        /* Faz cada botão ocupar toda a largura */
+    }
+}
