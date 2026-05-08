@@ -17,7 +17,7 @@ module.exports = defineConfig({
     use: {
 
         // Endereço base do projeto quando estiver aberto no Live Server
-        baseURL: 'http://127.0.0.1:5500',
+        baseURL: 'http://127.0.0.1:5500/produtos.html',
 
         // Grava screenshot apenas quando o teste falhar
         screenshot: 'only-on-failure',
