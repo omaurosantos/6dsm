@@ -1,0 +1,237 @@
+{
+  "curso": "Desenvolvimento de Software Multiplataforma",
+  "sigla": "DSM",
+  "updated_at": "2026-01-19",
+  "semestres": [
+    {
+      "semestre": 1,
+      "disciplinas": [
+        {
+          "disciplina": "Engenharia de Software I",
+          "professor": "Antonio Egydio São Thiago Graça",
+          "horarios": ["Seg 18:45-22:15"]
+        },
+        {
+          "disciplina": "Modelagem de Banco de Dados",
+          "professor": "Marcelo Augusto Sudo",
+          "horarios": ["Ter 18:45-21:15", "Sex 22:15-23:05"]
+        },
+        {
+          "disciplina": "Algoritmos e Lógica de Programação",
+          "professor": "Arley Ferreira de Souza",
+          "horarios": ["Qua 18:45-22:15"]
+        },
+        {
+          "disciplina": "Sistemas Operacionais e Redes de Computadores",
+          "professor": "Antonio Egydio São Thiago Graça",
+          "horarios": ["Qui 18:45-21:15", "Seg 22:15-23:05"]
+        },
+        {
+          "disciplina": "Desenvolvimento Web I",
+          "professor": "Henrique Duarte Borges Louro",
+          "horarios": ["Sex 18:45-22:15"]
+        },
+        {
+          "disciplina": "Design Digital",
+          "professor": "Marcelo Augusto Sudo",
+          "horarios": ["Ter 21:25-23:05", "Qua 21:25-23:05"]
+        }
+      ]
+    },
+    {
+      "semestre": 2,
+      "disciplinas": [
+        {
+          "disciplina": "Técnicas de Programação I",
+          "professor": "Henrique Duarte Borges Louro",
+          "horarios": ["Seg 18:45-22:15"]
+        },
+        {
+          "disciplina": "Desenvolvimento Web II",
+          "professor": "Arley Ferreira de Souza",
+          "horarios": ["Ter 18:45-21:15", "Qua 22:15-23:05"]
+        },
+        {
+          "disciplina": "Estrutura de Dados",
+          "professor": "Fabrício Galende Marques de Carvalho",
+          "horarios": ["Qua 18:45-22:15"]
+        },
+        {
+          "disciplina": "Matemática para Computação",
+          "professor": "Fabrício Galende Marques de Carvalho",
+          "horarios": ["Qui 18:45-22:15"]
+        },
+        {
+          "disciplina": "Engenharia de Software II",
+          "professor": "André Olímpio",
+          "horarios": ["Sex 18:45-21:15", "Seg 22:15-23:05"]
+        },
+        {
+          "disciplina": "Banco de Dados Relacional",
+          "professor": "Lucineide Nunes Pimenta",
+          "horarios": ["Ter 21:25-23:05", "Sex 21:25-23:05"]
+        }
+      ]
+    },
+    {
+      "semestre": 3,
+      "disciplinas": [
+        {
+          "disciplina": "Banco de Dados Não Relacional",
+          "professor": "Lucineide Nunes Pimenta",
+          "horarios": ["Seg 18:45-22:15"]
+        },
+        {
+          "disciplina": "Gestão Ágil de Projetos de Software",
+          "professor": "Ronaldo Emerick Moreira",
+          "horarios": ["Ter 18:45-21:15", "Qua 22:15-23:05"]
+        },
+        {
+          "disciplina": "Álgebra Linear",
+          "professor": "Anderson José da Silva Zamingnani",
+          "horarios": ["Qua 18:45-22:15"]
+        },
+        {
+          "disciplina": "Técnicas de Programação II",
+          "professor": "Henrique Duarte Borges Louro",
+          "horarios": ["Qui 18:45-21:15", "Seg 22:15-23:05"]
+        },
+        {
+          "disciplina": "Desenvolvimento Web III",
+          "professor": "Neymar Siqueira Dellareti",
+          "horarios": ["Sex 18:45-22:15"]
+        },
+        {
+          "disciplina": "Interação Humano Computador",
+          "professor": "Adriana Antividad López Valverde",
+          "horarios": ["Ter 21:25-23:05"]
+        },
+        {
+          "disciplina": "Inglês I",
+          "professor": "Maria Lucia de Oliveira",
+          "horarios": ["Qui 21:25-23:05"]
+        }
+      ]
+    },
+    {
+      "semestre": 4,
+      "disciplinas": [
+        {
+          "disciplina": "Programação para Dispositivos Móveis I",
+          "professor": "André Olímpio",
+          "horarios": ["Seg 18:45-22:15"]
+        },
+        {
+          "disciplina": "Laboratório de Desenvolvimento Web",
+          "professor": "Neymar Siqueira Dellareti",
+          "horarios": ["Ter 18:45-22:15"]
+        },
+        {
+          "disciplina": "Internet das Coisas e Aplicações",
+          "professor": "Lendro Toss Hoffman",
+          "horarios": ["Qua 18:45-22:15"]
+        },
+        {
+          "disciplina": "Estatística Aplicada",
+          "professor": "Anderson José da Silva Zamingnani",
+          "horarios": ["Qui 18:45-21:15", "Qua 22:15-23:05"]
+        },
+        {
+          "disciplina": "Integração e Entrega Contínua",
+          "professor": "Lucineide Nunes Pimenta",
+          "horarios": ["Sex 18:45-21:15", "Seg 22:15-23:05"]
+        },
+        {
+          "disciplina": "Experiência do Usuário",
+          "professor": "Lucineide Nunes Pimenta",
+          "horarios": ["Qui 21:25-23:05"]
+        },
+        {
+          "disciplina": "Inglês II",
+          "professor": "Maria Lucia de Oliveira",
+          "horarios": ["Sex 21:25-23:05"]
+        }
+      ]
+    },
+    {
+      "semestre": 5,
+      "disciplinas": [
+        {
+          "disciplina": "Segurança no Desenvolvimento de Aplicações",
+          "professor": "Rodrigo Silva Peres",
+          "horarios": ["Seg 18:45-22:15"]
+        },
+        {
+          "disciplina": "Aprendizagem de Máquina",
+          "professor": "Lendro Toss Hoffman",
+          "horarios": ["Ter 18:45-21:15", "Qua 22:15-23:05"]
+        },
+        {
+          "disciplina": "Computação em Nuvem I",
+          "professor": "Ronaldo Emerick Moreira",
+          "horarios": ["Qua 18:45-22:15"]
+        },
+        {
+          "disciplina": "Laboratório de Desenvolvimento para Dispositivos Móveis",
+          "professor": "Álvaro Alexandre Rezende Gonçalves",
+          "horarios": ["Qui 18:45-22:15", "Ter 21:25-23:05"]
+        },
+        {
+          "disciplina": "Programação para Dispositivos Móveis II",
+          "professor": "Álvaro Alexandre Rezende Gonçalves",
+          "horarios": ["Qui 20:25-23:05", "Seg 22:15-23:05"]
+        },
+        {
+          "disciplina": "Fundamentos da Redação Técnica",
+          "professor": "Pedro Panhoça da Silva",
+          "horarios": ["Sex 20:25-22:15"]
+        },
+        {
+          "disciplina": "Inglês III",
+          "professor": "Viviane Marengoni Garo",
+          "horarios": ["Sex 18:45-20:25"]
+        }
+      ]
+    },
+    {
+      "semestre": 6,
+      "disciplinas": [
+        {
+          "disciplina": "Laboratório de Desenvolvimento Multiplataforma",
+          "professor": "Marcelo Augusto Sudo",
+          "horarios": ["Seg 18:45-22:15"]
+        },
+        {
+          "disciplina": "Processamento de Linguagem Natural",
+          "professor": "",
+          "horarios": ["Ter 18:45-22:15"]
+        },
+        {
+          "disciplina": "Computação em Nuvem II",
+          "professor": "Marcelo Augusto Sudo",
+          "horarios": ["Qua 18:45-22:15"]
+        },
+        {
+          "disciplina": "Inglês IV",
+          "professor": "Viviane Marengoni Garo",
+          "horarios": ["Qui 18:45-20:25"]
+        },
+        {
+          "disciplina": "Qualidade e Testes de Software",
+          "professor": "Luiz Tadeu Muniz de Faria",
+          "horarios": ["Sex 18:45-22:15"]
+        },
+        {
+          "disciplina": "Mineração de Dados",
+          "professor": "Adriana Talhari Mendes de Souza",
+          "horarios": ["Qui 20:25-23:05", "Sex 22:15-23:05"]
+        },
+        {
+          "disciplina": "Ética Profissional e Patente",
+          "professor": "Ali Antonio Abrão Junior",
+          "horarios": ["Ter 22:15-23:05", "Qua 22:15-23:05"]
+        }
+      ]
+    }
+  ]
+}

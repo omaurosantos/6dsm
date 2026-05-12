@@ -1,0 +1,585 @@
+{
+  "ano": "2026",
+  "eventos": [
+    {
+      "nome": "Confraternização Universal - Feriado Nacional",
+      "inicio": "2026-01-01",
+      "fim": "2026-01-01"
+    },
+    {
+      "nome": "Prazo final de validação dos dados dos alunos concluintes do 2º semestre de 2025 no SIGA (Port. 07/2025)",
+      "inicio": "2026-01-05",
+      "fim": "2026-01-05"
+    },
+    {
+      "nome": "Matrícula dos alunos do itinerário formativo verticalizado (Programa A.M.S.)",
+      "inicio": "2026-01-12",
+      "fim": "2026-01-13"
+    },
+    {
+      "nome": "Período das inscrições para vagas remanescentes e transferências",
+      "inicio": "2026-01-12",
+      "fim": "2026-01-18"
+    },
+    {
+      "nome": "Rematrícula de alunos veteranos",
+      "inicio": "2026-01-12",
+      "fim": "2026-01-18"
+    },
+    {
+      "nome": "SIGA envia e-mail aos alunos veteranos que não efetivaram rematrícula para declaração de interesse em trancamento ou cancelamento de matrícula (Art. 28)",
+      "inicio": "2026-01-19",
+      "fim": "2026-01-19"
+    },
+    {
+      "nome": "Classificação Geral e Convocação da 1ª Lista de Chamada – Vestibular",
+      "inicio": "2026-01-19",
+      "fim": "2026-01-19"
+    },
+    {
+      "nome": "Previsão de divulgação do resultado final e da 1ª Lista de Chamada do Provão Paulista",
+      "inicio": "2026-01-19",
+      "fim": "2026-01-19"
+    },
+    {
+      "nome": "Matrícula da 1ª Chamada – Vestibular",
+      "inicio": "2026-01-20",
+      "fim": "2026-01-22"
+    },
+    {
+      "nome": "Matrícula da 1ª Chamada – Provão Paulista",
+      "inicio": "2026-01-20",
+      "fim": "2026-01-22"
+    },
+    {
+      "nome": "Divulgação e Convocação da 2ª Lista de Chamada – Vestibular",
+      "inicio": "2026-01-26",
+      "fim": "2026-01-26"
+    },
+    {
+      "nome": "Previsão de divulgação da 2ª Lista de Chamada – Provão Paulista",
+      "inicio": "2026-01-26",
+      "fim": "2026-01-26"
+    },
+    {
+      "nome": "Matrícula da 2ª Chamada – Vestibular",
+      "inicio": "2026-01-27",
+      "fim": "2026-01-29"
+    },
+    {
+      "nome": "Matrícula da 2ª Chamada – Provão Paulista",
+      "inicio": "2026-01-27",
+      "fim": "2026-01-29"
+    },
+    {
+      "nome": "Previsão de divulgação da 3ª Lista de Chamada – Provão Paulista",
+      "inicio": "2026-02-02",
+      "fim": "2026-02-02"
+    },
+    {
+      "nome": "Início do 1º Semestre de 2026",
+      "inicio": "2026-02-04",
+      "fim": "2026-02-04"
+    },
+    {
+      "nome": "Matrícula da 3ª Chamada – Provão Paulista",
+      "inicio": "2026-02-03",
+      "fim": "2026-02-05"
+    },
+    {
+      "nome": "Semana de Práticas e Atualização Pedagógica – 18ª SPAP",
+      "inicio": "2026-02-04",
+      "fim": "2026-02-07"
+    },
+    {
+      "nome": "Início das aulas do 1º Semestre Letivo de 2026",
+      "inicio": "2026-02-09",
+      "fim": "2026-02-09"
+    },
+    {
+      "nome": "Não haverá aula – feriado e emenda – Carnaval e Quarta-Feira de Cinzas",
+      "inicio": "2026-02-14",
+      "fim": "2026-02-18"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem aproveitamento de estudos via SIGA (Art. 76)",
+      "inicio": "2026-02-19",
+      "fim": "2026-02-19"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem reconhecimento de competências via SIGA (Art. 80, §1º)",
+      "inicio": "2026-02-19",
+      "fim": "2026-02-19"
+    },
+    {
+      "nome": "Prazo final de matrículas de alunos veteranos para vagas remanescentes e transferências",
+      "inicio": "2026-02-19",
+      "fim": "2026-02-19"
+    },
+    {
+      "nome": "Prazo final de alterações de matrículas para acomodação de horários de alunos veteranos (Art. 26, §4º)",
+      "inicio": "2026-02-19",
+      "fim": "2026-02-19"
+    },
+    {
+      "nome": "Prazo final para aplicação de exame de nivelamento de línguas estrangeiras com possibilidade de acomodação de horário (Art. 87, §1º)",
+      "inicio": "2026-02-21",
+      "fim": "2026-02-21"
+    },
+    {
+      "nome": "Prazo final de alterações de matrículas de alunos ingressantes para acomodação de horários (Art. 25, §2º)",
+      "inicio": "2026-02-23",
+      "fim": "2026-02-23"
+    },
+    {
+      "nome": "Cancelamento de alunos ingressantes com ausência injustificada nos primeiros 14 dias de aula (Art. 32, Inciso I)",
+      "inicio": "2026-02-23",
+      "fim": "2026-02-23"
+    },
+    {
+      "nome": "Período das inscrições para vagas remanescentes de 1º semestre (Art. 91, §1º)",
+      "inicio": "2026-02-23",
+      "fim": "2026-02-25"
+    },
+    {
+      "nome": "Matrícula de alunos especiais nas disciplinas em que houver vaga (Art. 27, §3º)",
+      "inicio": "2026-02-24",
+      "fim": "2026-02-24"
+    },
+    {
+      "nome": "Matrícula de alunos ingressantes por ocasião de cancelamento de matrículas (Art. 32, Inciso I)",
+      "inicio": "2026-02-24",
+      "fim": "2026-02-24"
+    },
+    {
+      "nome": "Divulgação de resultados e matrículas das vagas remanescentes de 1º semestre (Art. 91, §1º)",
+      "inicio": "2026-02-27",
+      "fim": "2026-02-27"
+    },
+    {
+      "nome": "Prazo final para aplicação de exame de nivelamento de línguas estrangeiras sem possibilidade de acomodação de horário (Art. 87, §1º)",
+      "inicio": "2026-02-27",
+      "fim": "2026-02-27"
+    },
+    {
+      "nome": "Prazo final de matrículas de alunos ingressantes – Fechamento do sistema de matrícula remota",
+      "inicio": "2026-02-28",
+      "fim": "2026-02-28"
+    },
+    {
+      "nome": "Cancelamento de matrícula dos alunos veteranos que não declararam interesse pela manutenção de sua vaga (Art. 28 – Parágrafo único)",
+      "inicio": "2026-03-02",
+      "fim": "2026-03-02"
+    },
+    {
+      "nome": "Reunião de Congregação",
+      "inicio": "2026-03-24",
+      "fim": "2026-03-24"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem aproveitamento de estudos para componentes curriculares ofertados a partir do segundo período letivo do curso, sem possibilidade de acomodação de matrícula (Art. 76, §1º)",
+      "inicio": "2026-03-25",
+      "fim": "2026-03-25"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem aproveitamento de conhecimentos e experiências anteriores, sem possibilidade de acomodação de matrícula (Art. 83, §1º)",
+      "inicio": "2026-03-25",
+      "fim": "2026-03-25"
+    },
+    {
+      "nome": "Não haverá aula – feriado e emenda – Paixão de Cristo e Aniversário do Município de Jacareí",
+      "inicio": "2026-04-03",
+      "fim": "2026-04-04"
+    },
+    {
+      "nome": "Páscoa",
+      "inicio": "2026-04-05",
+      "fim": "2026-04-05"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - P1",
+      "inicio": "2026-04-11",
+      "fim": "2026-04-11"
+    },
+    {
+      "nome": "Avaliação presencial do CST em Gestão Empresarial - EaD - P1 Substitutiva",
+      "inicio": "2026-04-13",
+      "fim": "2026-04-13"
+    },
+    {
+      "nome": "Prazo final para desistência de disciplina de cursos semestrais (Art. 30)",
+      "inicio": "2026-04-17",
+      "fim": "2026-04-17"
+    },
+    {
+      "nome": "Não haverá aula – feriado e emenda – Tiradentes",
+      "inicio": "2026-04-20",
+      "fim": "2026-04-21"
+    },
+    {
+      "nome": "Não haverá aula – feriado e emenda – Dia do Trabalho",
+      "inicio": "2026-05-01",
+      "fim": "2026-05-02"
+    },
+    {
+      "nome": "Prazo final de trancamento de matrículas de cursos semestrais, exceto para alunos ingressantes (Art. 31, §3º)",
+      "inicio": "2026-05-13",
+      "fim": "2026-05-13"
+    },
+    {
+      "nome": "Não haverá aula – feriado e emenda – Corpus Christi",
+      "inicio": "2026-06-04",
+      "fim": "2026-06-06"
+    },
+    {
+      "nome": "Período para aplicação de exame de rendimento de línguas estrangeiras (Art. 86, §1º, Inciso II)",
+      "inicio": "2026-06-08",
+      "fim": "2026-06-20"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - P2",
+      "inicio": "2026-06-13",
+      "fim": "2026-06-13"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - P2 Substitutiva",
+      "inicio": "2026-06-15",
+      "fim": "2026-06-15"
+    },
+    {
+      "nome": "Envio da chave aos professores para fechamento dos cursos semestrais presenciais no SIGA",
+      "inicio": "2026-06-19",
+      "fim": "2026-06-19"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - Prova Final",
+      "inicio": "2026-06-20",
+      "fim": "2026-06-20"
+    },
+    {
+      "nome": "Prazo final para fechamento das disciplinas no SIGA dos cursos semestrais",
+      "inicio": "2026-06-27",
+      "fim": "2026-06-27"
+    },
+    {
+      "nome": "Término das aulas do 1º Semestre Letivo de 2026",
+      "inicio": "2026-06-27",
+      "fim": "2026-06-27"
+    },
+    {
+      "nome": "Período para solicitar revisão da média final de cursos semestrais via SIGA (Art. 38 – Parágrafo único)",
+      "inicio": "2026-06-29",
+      "fim": "2026-07-01"
+    },
+    {
+      "nome": "Reunião de Congregação",
+      "inicio": "2026-06-30",
+      "fim": "2026-06-30"
+    },
+    {
+      "nome": "Divulgação dos resultados de revisão da média final de cursos semestrais via SIGA (Art. 38 – Parágrafo único)",
+      "inicio": "2026-07-02",
+      "fim": "2026-07-04"
+    },
+    {
+      "nome": "Prazo final para erratas de cursos semestrais (Art. 37, §1º)",
+      "inicio": "2026-07-04",
+      "fim": "2026-07-04"
+    },
+    {
+      "nome": "Prazo final para entrega de médias finais, conteúdos programáticos e frequência de cursos semestrais",
+      "inicio": "2026-07-04",
+      "fim": "2026-07-04"
+    },
+    {
+      "nome": "Encerramento do 1º Semestre de 2026",
+      "inicio": "2026-07-04",
+      "fim": "2026-07-04"
+    },
+    {
+      "nome": "Período de exames finais de cursos semestrais (Art. 34)",
+      "inicio": "2026-07-06",
+      "fim": "2026-07-08"
+    },
+    {
+      "nome": "Feriado – Revolução Constitucionalista",
+      "inicio": "2026-07-09",
+      "fim": "2026-07-09"
+    },
+    {
+      "nome": "Período de Recesso",
+      "inicio": "2026-07-10",
+      "fim": "2026-07-25"
+    },
+    {
+      "nome": "Período das inscrições para vagas remanescentes e transferências",
+      "inicio": "2026-07-13",
+      "fim": "2026-07-19"
+    },
+    {
+      "nome": "Rematrícula de alunos veteranos de cursos semestrais",
+      "inicio": "2026-07-13",
+      "fim": "2026-07-19"
+    },
+    {
+      "nome": "SIGA envia e-mail aos alunos que não efetivaram rematrícula para declaração de interesse em trancamento ou cancelamento de matrícula (Art. 28)",
+      "inicio": "2026-07-20",
+      "fim": "2026-07-20"
+    },
+    {
+      "nome": "Início do 2º Semestre de 2026",
+      "inicio": "2026-07-27",
+      "fim": "2026-07-27"
+    },
+    {
+      "nome": "Semana de Práticas e Atualização Pedagógica – 19ª SPAP",
+      "inicio": "2026-07-27",
+      "fim": "2026-07-31"
+    },
+    {
+      "nome": "Início das aulas do 2º Semestre Letivo de 2026",
+      "inicio": "2026-08-03",
+      "fim": "2026-08-03"
+    },
+    {
+      "nome": "Prazo final para desistência de disciplinas de cursos anuais (Art. 30)",
+      "inicio": "2026-08-03",
+      "fim": "2026-08-03"
+    },
+    {
+      "nome": "Prazo final de validação dos dados dos alunos concluintes do 1º semestre de 2026 via SIGA (Port. 07/2025)",
+      "inicio": "2026-08-05",
+      "fim": "2026-08-05"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem aproveitamento de estudos via SIGA (Art. 76)",
+      "inicio": "2026-08-10",
+      "fim": "2026-08-10"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem reconhecimento de competências via SIGA (Art. 80)",
+      "inicio": "2026-08-10",
+      "fim": "2026-08-10"
+    },
+    {
+      "nome": "Prazo final de matrículas de alunos veteranos para vagas remanescentes e transferências",
+      "inicio": "2026-08-10",
+      "fim": "2026-08-10"
+    },
+    {
+      "nome": "Prazo final de alterações de matrículas de alunos veteranos para acomodação de horários (Art. 26, §4º)",
+      "inicio": "2026-08-10",
+      "fim": "2026-08-10"
+    },
+    {
+      "nome": "Prazo final para aplicação de exame de nivelamento de línguas estrangeiras com possibilidade de acomodação de horário (Art. 87, §1º)",
+      "inicio": "2026-08-15",
+      "fim": "2026-08-15"
+    },
+    {
+      "nome": "Prazo final de alterações de matrículas de alunos ingressantes para acomodação de horários (Art. 25, §2º)",
+      "inicio": "2026-08-17",
+      "fim": "2026-08-17"
+    },
+    {
+      "nome": "Cancelamento de alunos ingressantes com ausência injustificada nos primeiros 14 dias de aula (Art. 32, Inciso I)",
+      "inicio": "2026-08-17",
+      "fim": "2026-08-17"
+    },
+    {
+      "nome": "Matrícula de alunos especiais nas disciplinas em que houver vaga (Art. 27, §3º)",
+      "inicio": "2026-08-18",
+      "fim": "2026-08-18"
+    },
+    {
+      "nome": "Matrícula de alunos ingressantes por ocasião de cancelamento de matrículas (Art. 32, Inciso I)",
+      "inicio": "2026-08-18",
+      "fim": "2026-08-18"
+    },
+    {
+      "nome": "Período das inscrições para vagas remanescentes de 1º semestre (Art. 91, §1º)",
+      "inicio": "2026-08-24",
+      "fim": "2026-08-26"
+    },
+    {
+      "nome": "Cancelamento de matrícula dos alunos veteranos que não declararam interesse pela manutenção de sua vaga (Art. 28 – Parágrafo único)",
+      "inicio": "2026-08-24",
+      "fim": "2026-08-24"
+    },
+    {
+      "nome": "Divulgação de resultados e matrícula das vagas remanescentes de 1º semestre (Art. 91, §1º)",
+      "inicio": "2026-08-28",
+      "fim": "2026-08-28"
+    },
+    {
+      "nome": "Prazo final para aplicação de exame de nivelamento de línguas estrangeiras sem possibilidade de acomodação de horário (Art. 87, §1º)",
+      "inicio": "2026-08-28",
+      "fim": "2026-08-28"
+    },
+    {
+      "nome": "Prazo final de matrículas de alunos ingressantes – Fechamento do sistema de matrícula remota",
+      "inicio": "2026-08-31",
+      "fim": "2026-08-31"
+    },
+    {
+      "nome": "Prazo final de validação dos dados do 2º semestre de 2026 via SIGA (Port. 07/2025)",
+      "inicio": "2026-08-31",
+      "fim": "2026-08-31"
+    },
+    {
+      "nome": "Não haverá aula – Feriado – Independência do Brasil",
+      "inicio": "2026-09-07",
+      "fim": "2026-09-07"
+    },
+    {
+      "nome": "Prazo final de trancamento de matrículas de cursos anuais, exceto para alunos ingressantes (Art. 31, §3º)",
+      "inicio": "2026-09-15",
+      "fim": "2026-09-15"
+    },
+    {
+      "nome": "Reunião de Congregação",
+      "inicio": "2026-09-15",
+      "fim": "2026-09-15"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem aproveitamento de estudos para componentes curriculares ofertados a partir do segundo período letivo do curso, sem possibilidade de acomodação de matrícula (Art. 76, §1º)",
+      "inicio": "2026-09-16",
+      "fim": "2026-09-16"
+    },
+    {
+      "nome": "Prazo final para alunos ingressantes solicitarem aproveitamento de conhecimentos e experiências anteriores, sem possibilidade de acomodação de matrícula (Art. 83, §1º)",
+      "inicio": "2026-09-16",
+      "fim": "2026-09-16"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - P1",
+      "inicio": "2026-10-03",
+      "fim": "2026-10-03"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - P1 Substitutiva",
+      "inicio": "2026-10-05",
+      "fim": "2026-10-05"
+    },
+    {
+      "nome": "Prazo final para desistência de disciplina de cursos semestrais (Art. 30)",
+      "inicio": "2026-10-06",
+      "fim": "2026-10-06"
+    },
+    {
+      "nome": "FEITEC – Feira de Tecnologia",
+      "inicio": "2026-10-07",
+      "fim": "2026-10-08"
+    },
+    {
+      "nome": "Não haverá aula – Feriado – Dia de Nossa Senhora Aparecida",
+      "inicio": "2026-10-12",
+      "fim": "2026-10-12"
+    },
+    {
+      "nome": "Não haverá aula – Dia do Professor (Decreto Federal nº 52.682/1963)",
+      "inicio": "2026-10-15",
+      "fim": "2026-10-15"
+    },
+    {
+      "nome": "Dia do Servidor Público",
+      "inicio": "2026-10-28",
+      "fim": "2026-10-28"
+    },
+    {
+      "nome": "Prazo final de trancamento de matrículas de cursos semestrais, exceto para alunos ingressantes (Art. 31, §3º)",
+      "inicio": "2026-10-29",
+      "fim": "2026-10-29"
+    },
+    {
+      "nome": "Não haverá aula – Feriado – Dia de Finados",
+      "inicio": "2026-11-02",
+      "fim": "2026-11-02"
+    },
+    {
+      "nome": "Feriado – Proclamação da República",
+      "inicio": "2026-11-15",
+      "fim": "2026-11-15"
+    },
+    {
+      "nome": "Período para aplicação de exame de rendimento de línguas estrangeiras (Art. 86, §1º, Inciso II)",
+      "inicio": "2026-11-16",
+      "fim": "2026-11-30"
+    },
+    {
+      "nome": "Não haverá aula – feriado e emenda – Dia da Consciência Negra",
+      "inicio": "2026-11-20",
+      "fim": "2026-11-21"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - P2",
+      "inicio": "2026-11-28",
+      "fim": "2026-11-28"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - P2 Substitutiva",
+      "inicio": "2026-11-30",
+      "fim": "2026-11-30"
+    },
+    {
+      "nome": "Envio da chave aos professores para fechamento dos cursos no SIGA",
+      "inicio": "2026-12-04",
+      "fim": "2026-12-04"
+    },
+    {
+      "nome": "Avaliações presenciais do CST em Gestão Empresarial - EaD - Prova Final",
+      "inicio": "2026-12-05",
+      "fim": "2026-12-05"
+    },
+    {
+      "nome": "Não haverá aula – feriado e emenda – Feriado Municipal – Dia da Padroeira",
+      "inicio": "2026-12-07",
+      "fim": "2026-12-08"
+    },
+    {
+      "nome": "Reunião de Congregação",
+      "inicio": "2026-12-09",
+      "fim": "2026-12-09"
+    },
+    {
+      "nome": "Prazo final para entrega de médias finais, conteúdos programáticos e frequência",
+      "inicio": "2026-12-14",
+      "fim": "2026-12-14"
+    },
+    {
+      "nome": "Término das aulas do 2º Semestre Letivo de 2026",
+      "inicio": "2026-12-14",
+      "fim": "2026-12-14"
+    },
+    {
+      "nome": "Período para solicitar revisão de médias finais via SIGA (Art. 38 – Parágrafo único)",
+      "inicio": "2026-12-15",
+      "fim": "2026-12-17"
+    },
+    {
+      "nome": "Divulgação dos resultados de revisão de médias finais via SIGA",
+      "inicio": "2026-12-18",
+      "fim": "2026-12-21"
+    },
+    {
+      "nome": "Prazo final para erratas (Art. 37, §1º)",
+      "inicio": "2026-12-21",
+      "fim": "2026-12-21"
+    },
+    {
+      "nome": "Encerramento do 2º Semestre de 2026",
+      "inicio": "2026-12-21",
+      "fim": "2026-12-21"
+    },
+    {
+      "nome": "Período de exames finais (Art. 34)",
+      "inicio": "2026-12-22",
+      "fim": "2026-12-23"
+    },
+    {
+      "nome": "Natal",
+      "inicio": "2026-12-25",
+      "fim": "2026-12-25"
+    }
+  ]
+}
