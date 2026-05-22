@@ -180,10 +180,22 @@ test('CT10 - Cadastro com preço mínimo válido deve exibir mensagem de sucesso
 test('CT11 - Cadastro com preço máximo permitido deve exibir mensagem de sucesso', async ({ page }) => {
  // Abre a tela de cadastro.
  await abrirTelaCadastro(page);
- // Preenche o formulário deixando o preço no máximo permitido..
+ // Preenche o formulário deixando o preço no máximo permitido.
  await preencherProduto(page, 'Notebook Gamer', 'Eletrônicos', '9999.99', '2', 'Notebook de alto desempenho', 'Ativo');
  // Clica em salvar.
  await salvarProduto(page);
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
+});
+
+// CT12 - Preço acima do limite máximo permitido
+test('CT12 - Cadastro com preço acima do limite máximo permitido deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o preço acima do limite máximo permitido.
+ await preencherProduto(page, 'Computador Premium', 'Eletrônicos', '10000.00', '1', 'Computador para teste', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('O preço não pode ser maior que 9999.99.');
 });
