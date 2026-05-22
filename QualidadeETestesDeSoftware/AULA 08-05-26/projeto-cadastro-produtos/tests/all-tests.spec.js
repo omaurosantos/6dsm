@@ -151,3 +151,15 @@ test('CT08 - Cadastro com preço zero deve exibir mensagem de erro', async ({ pa
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('O preço deve ser maior que zero.');
 });
+
+// CT09 - Preço menor que zero
+test('CT09 - Cadastro com preço menor que zero deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o preço menor que zero.
+ await preencherProduto(page, 'Shampoo teste', 'Beleza', '-5.00', '10', 'Produto teste', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('O preço deve ser maior que zero.');
+});
