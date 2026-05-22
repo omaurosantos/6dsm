@@ -273,3 +273,17 @@ test('CT18 - Cadastro com descrição acima do limite permitido deve exibir mens
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('A descrição deve ter no máximo 300 caracteres.');
 });
+
+// CT19 - Cadastro sem status
+test('CT19 - Cadastro sem status deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando status nulo.
+ await preencherProduto(page, 'Produto teste status', 'Casa', '10.00', '10', 
+  'Produto de teste',
+  '');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('O status do produto é obrigatório.');
+});
