@@ -1,3 +1,7 @@
+# ATIVIDADE PRÁTICA
+## Testes de Software em Sistema de Cadastro de Produtos
+Alunos: Mauro do Prado Santos e Jonatas Filipe
+
 # Parte 1: Plano de teste
 
 | Item | Resposta |
