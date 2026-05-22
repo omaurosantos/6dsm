@@ -139,3 +139,15 @@ test('CT07 - Cadastro sem informar preço deve exibir mensagem de erro', async (
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('O preço é obrigatório.');
 });
+
+// CT08 - Preço no limite inválido (zero)
+test('CT08 - Cadastro com preço zero deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o preço zero.
+ await preencherProduto(page, 'Presilha colorida', 'Acessórios', '0', '50', 'Presilha para cabelo', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('O preço deve ser maior que zero.');
+});
