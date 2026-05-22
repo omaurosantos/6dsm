@@ -163,3 +163,16 @@ test('CT09 - Cadastro com preço menor que zero deve exibir mensagem de erro', a
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('O preço deve ser maior que zero.');
 });
+
+// CT10 - Preço mínimo válido
+test('CT10 - Cadastro com preço mínimo válido deve exibir mensagem de sucesso', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o preço no mínimo válido.
+ await preencherProduto(page, 'Elástico de cabelo', 'Acessórios', '0.01', '100', 'Elástico simples', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
+});
+
