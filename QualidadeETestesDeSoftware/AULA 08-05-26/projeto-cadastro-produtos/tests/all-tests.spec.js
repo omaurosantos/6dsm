@@ -199,3 +199,16 @@ test('CT12 - Cadastro com preço acima do limite máximo permitido deve exibir m
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('O preço não pode ser maior que 9999.99.');
 });
+
+// CT13 - Cadastro sem informar estoque
+test('CT13 - Cadastro sem informar estoque deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o estoque vazio.
+ await preencherProduto(page, 'Carrinho de brinquedo', 'Brinquedos', '25.90', '', 'Brinquedo infantil', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('A quantidade em estoque é obrigatória.');
+});
+
