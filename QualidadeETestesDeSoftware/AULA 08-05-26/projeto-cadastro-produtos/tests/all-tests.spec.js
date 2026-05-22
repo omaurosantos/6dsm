@@ -115,3 +115,15 @@ test('CT05 - Nome acima do tamanho máximo deve exibir mensagem de erro', async 
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('O nome do produto deve ter no máximo 80 caracteres.');
 });
+
+// CT06 - Cadastro sem selecionar categoria
+test('CT06 - Cadastro sem selecionar categoria deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando a categoria vazia.
+ await preencherProduto(page, 'Escova de cabelo', '', '15.90', '8', 'Escova simples', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('A categoria é obrigatória.');
+});
