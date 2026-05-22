@@ -7,6 +7,9 @@ var formularioProduto = document.getElementById("formProduto");
 // Pega a área de mensagem pelo ID.
 var areaMensagem = document.getElementById("mensagem");
 
+// Guarda os nomes dos produtos já cadastrados nesta sessão.
+var produtosCadastrados = [];
+
 // Adiciona um evento de clique ao botão Salvar.
 botaoSalvar.addEventListener("click", validarCadastroProduto);
 
@@ -126,6 +129,23 @@ function validarCadastroProduto() {
         mostrarErro("O status do produto é obrigatório.");
         return;
     }
+
+    // Verifica se produto inativo possui estoque maior que zero.
+    if (statusProduto == "Inativo" && quantidade > 0) {
+        mostrarErro("Produto inativo não pode ter estoque maior que zero.");
+        return;
+    }
+
+    // Verifica se já existe produto cadastrado com o mesmo nome.
+    var nomeProdutoNormalizado = nomeProduto.toLowerCase();
+
+    if (produtosCadastrados.includes(nomeProdutoNormalizado)) {
+        mostrarErro("Já existe um produto cadastrado com este nome.");
+        return;
+    }
+
+    // Guarda o produto cadastrado.
+    produtosCadastrados.push(nomeProdutoNormalizado);
 
     // Se todas as validações passaram, mostra mensagem de sucesso.
     mostrarSucesso("Produto cadastrado com sucesso.");

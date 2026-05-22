@@ -47,6 +47,11 @@ Este projeto foi criado para aula prática de Qualidade e Testes de Software.
 npx playwright test tests/all-tests.spec.js --headed
 ```
 
+## Comando para rodas os testes do desafio extra
+```
+npx playwright test tests/desafio_extra.spec.js --headed
+```
+
 ## Comando para visualizar o .html com reports
 ```
  npx playwright show-report

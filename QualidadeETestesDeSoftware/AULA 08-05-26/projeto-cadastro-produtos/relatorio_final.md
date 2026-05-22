@@ -431,8 +431,46 @@ Print do relatório Playwright:
 ![ct1-ct10](image.png)
 ![ct11-ct20](image-1.png)
 
-# Parte 8: Conclusão técnica
+# Parte 8: Desafio extra
+
+Foi implementado e automatizado o desafio extra no arquivo `tests/desafio_extra.spec.js`. Também foram feitos ajustes no arquivo `produtos.js` para atender às novas regras de negócio:
+
+- impedir cadastro de produto com mesmo nome;
+- impedir produto inativo com estoque maior que zero;
+- manter a validação de quantidade inteira;
+- validar o comportamento do campo preço com vírgula;
+- validar o botão limpar formulário.
+
+## Casos de teste do desafio extra
+
+| ID | Regra extra | Resultado esperado | Resultado obtido | Status |
+| --- | --- | --- | --- | --- |
+| CT21 | Botão limpar formulário | Todos os campos devem ser apagados. | Todos os campos foram apagados. | Aprovado |
+| CT22 | Cadastro de produto duplicado | Impedir cadastro com mesmo nome. | O sistema exibiu: Já existe um produto cadastrado com este nome. | Aprovado |
+| CT23 | Campo preço com vírgula | Aceitar 59,90 ou exibir mensagem adequada. | O sistema exibiu mensagem adequada para o campo preço. | Aprovado |
+| CT24 | Campo quantidade com decimal | Impedir quantidade 10.5. | O sistema exibiu: A quantidade em estoque deve ser um número inteiro. | Aprovado |
+| CT25 | Produto inativo com estoque maior que zero | Verificar regra de status e estoque. | O sistema exibiu: Produto inativo não pode ter estoque maior que zero. | Aprovado |
+
+## Execução automatizada do desafio extra
+
+Comando executado:
+
+```bash
+npm.cmd test -- tests/desafio_extra.spec.js
+```
+
+Resultado da execução:
+
+| Informação | Resultado |
+| --- | --- |
+| Quantidade de testes executados | 5 |
+| Quantidade de testes aprovados | 5 |
+| Quantidade de testes reprovados | 0 |
+| Arquivo de teste | `tests/desafio_extra.spec.js` |
+| Arquivo ajustado para as regras extras | `produtos.js` |
+
+# Parte 9: Conclusão técnica
 
 Com base nos testes manuais e automatizados executados, o sistema de cadastro de produtos atendeu às regras de negócio avaliadas nos cenários obrigatórios. Foram testados casos válidos, campos obrigatórios, limites mínimos e máximos de nome, preço, estoque, descrição e status do produto.
 
-Todos os 20 casos de teste foram aprovados tanto na execução manual quanto na execução automatizada com Playwright. Não foram encontrados defeitos durante a execução, e os resultados obtidos ficaram de acordo com os resultados esperados. Portanto, a funcionalidade de cadastro de produtos está aprovada para os critérios testados nesta atividade.
+Todos os 20 casos de teste obrigatórios foram aprovados tanto na execução manual quanto na execução automatizada com Playwright. Além disso, os 5 casos do desafio extra também foram aprovados na execução automatizada. Não foram encontrados defeitos pendentes após os ajustes realizados, e os resultados obtidos ficaram de acordo com os resultados esperados. Portanto, a funcionalidade de cadastro de produtos está aprovada para os critérios testados nesta atividade.
