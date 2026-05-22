@@ -287,3 +287,15 @@ test('CT19 - Cadastro sem status deve exibir mensagem de erro', async ({ page })
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('O status do produto é obrigatório.');
 });
+
+// CT20 - Cadastro válido com descrição vazia
+test('CT20 - Cadastro com descrição vazia deve exibir mensagem de sucesso', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando a descrição vazia.
+ await preencherProduto(page, 'Touca de cetim', 'Beleza', '18.90', '30', '', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
+});
