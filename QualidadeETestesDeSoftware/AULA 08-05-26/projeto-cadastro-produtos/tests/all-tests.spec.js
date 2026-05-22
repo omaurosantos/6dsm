@@ -212,3 +212,14 @@ test('CT13 - Cadastro sem informar estoque deve exibir mensagem de erro', async 
  await expect(page.locator('#mensagem')).toHaveText('A quantidade em estoque é obrigatória.');
 });
 
+// CT14 - Cadastro com estoque negativo
+test('CT14 - Cadastro com estoque negativo deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o estoque negativo.
+ await preencherProduto(page, 'Copo de vidro', 'Casa', '12.50', '-1', 'Copo simples', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('A quantidade em estoque não pode ser negativa.');
+});
