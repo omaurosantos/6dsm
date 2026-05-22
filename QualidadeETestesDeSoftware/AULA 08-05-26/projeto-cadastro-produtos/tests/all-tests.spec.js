@@ -236,3 +236,14 @@ test('CT15 - Cadastro sem estoque deve exibir mensagem de sucesso', async ({ pag
  await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
 });
 
+// CT16 - Produto com estoque no limite máximo.
+test('CT16 - Cadastro com estoque no limite máximo deve exibir mensagem de sucesso', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o estoque no limite máximo.
+ await preencherProduto(page, 'Presilha coração', 'Acessórios', '4.99', '999', 'Presilha pequena', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
+});
