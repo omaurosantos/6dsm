@@ -84,7 +84,7 @@ test('CT03 - O nome do produto deve ter no mínimo 3 caracteres.', async ({ page
  // Abre a tela de cadastro.
  await abrirTelaCadastro(page);
  // Preenche o formulário deixando o nome com "AB" (menos de 3 caracteres)..
- await preencherProduto(page, 'AB', 'Eletrônicos', '59.90', '10', 'Produto para teste', 'Ativo');
+ await preencherProduto(page, 'TV', 'Eletrônicos', '900.00', '5', 'Televisor', 'Ativo');
  // Clica em salvar.
  await salvarProduto(page);
  // Verifica se a mensagem correta apareceu.
