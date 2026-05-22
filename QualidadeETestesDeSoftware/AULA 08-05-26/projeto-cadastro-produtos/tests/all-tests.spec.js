@@ -247,3 +247,29 @@ test('CT16 - Cadastro com estoque no limite máximo deve exibir mensagem de suce
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
 });
+
+// CT17 - Produto com estoque acima do limite máximo.
+test('CT17 - Cadastro com estoque acima do limite máximo deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o estoque acima do limite máximo.
+ await preencherProduto(page, 'Balança digital', 'Eletrônicos', '39.90', '1000', 'Balança portátil', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('A quantidade em estoque não pode ser maior que 999.');
+});
+
+// CT18 - Descrição acima do limite
+test('CT18 - Cadastro com descrição acima do limite permitido deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando a descrição acima do limite permitido.
+ await preencherProduto(page, 'Kit acessórios', 'Acessórios', '29.90', '10', 
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula, nisl at convallis feugiat, nunc justo tincidunt augue, sed tempor lorem purus non massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec non sem vitae justo. Nulla facilisi est. Ok',
+  'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('A descrição deve ter no máximo 300 caracteres.');
+});
