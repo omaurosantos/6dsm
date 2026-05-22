@@ -2,9 +2,27 @@
 // O "test" cria um teste automatizado.
 // O "expect" verifica se o resultado esperado aconteceu.
 const { test, expect } = require("@playwright/test");
+const fs = require("fs");
+const path = require("path");
 // Define a URL da página de cadastro de produtos.
 // A porta deve ser ajustada conforme o Live Server.
 const urlCadastroProduto = "http://127.0.0.1:5500/produtos.html";
+const pastaEvidencias = path.join(__dirname, "..", "evidencias");
+
+// Tira um print no fim de cada teste, usando o ID do caso como nome do arquivo.
+test.afterEach(async ({ page }, testInfo) => {
+  fs.mkdirSync(pastaEvidencias, { recursive: true });
+
+  const idCasoTeste = testInfo.title.match(/CT\d{2}/)?.[0] || "teste";
+  const status = testInfo.status === "passed" ? "aprovado" : "reprovado";
+  const caminhoPrint = path.join(pastaEvidencias, `${idCasoTeste}-${status}.png`);
+
+  await page.screenshot({
+    path: caminhoPrint,
+    fullPage: true,
+  });
+});
+
 // Função auxiliar para abrir a tela de cadastro.
 // Ela evita repetir o mesmo código em todos os testes.
 async function abrirTelaCadastro(page) {
