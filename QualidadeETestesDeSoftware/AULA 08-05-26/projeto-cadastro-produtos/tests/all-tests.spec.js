@@ -83,11 +83,23 @@ test('CT02 - Nome vazio deve exibir mensagem obrigatória', async ({ page }) => 
 test('CT03 - O nome do produto deve ter no mínimo 3 caracteres.', async ({ page }) => {
  // Abre a tela de cadastro.
  await abrirTelaCadastro(page);
- // Preenche o formulário deixando o nome com "AB" (menos de 3 caracteres)..
+ // Preenche o formulário deixando o nome com "TV" (menos de 3 caracteres)..
  await preencherProduto(page, 'TV', 'Eletrônicos', '900.00', '5', 'Televisor', 'Ativo');
  // Clica em salvar.
  await salvarProduto(page);
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('O nome do produto deve ter no mínimo 3 caracteres.');
+});
+
+// CT04 - Nome no limite mínimo
+test('CT04 - Nome no limite mínimo deve ser cadastrado com sucesso', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o nome com "Fio" (3 caracteres)..
+ await preencherProduto(page, 'Fio', 'Acessórios', '9.90', '20', 'Fio para teste', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
 });
 
