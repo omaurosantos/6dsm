@@ -41,3 +41,13 @@ Este projeto foi criado para aula prática de Qualidade e Testes de Software.
 - Descrição máxima de 300 caracteres.
 - Status obrigatório.
 - Mensagem de sucesso para cadastro válido.
+
+## Comando para rodar os testes
+``` 
+npx playwright test tests/all-tests.spec.js --headed
+```
+
+## Comando para visualizar o .html com reports
+```
+ npx playwright show-report
+```
