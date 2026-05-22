@@ -127,3 +127,15 @@ test('CT06 - Cadastro sem selecionar categoria deve exibir mensagem de erro', as
  // Verifica se a mensagem correta apareceu.
  await expect(page.locator('#mensagem')).toHaveText('A categoria é obrigatória.');
 });
+
+// CT07 - Cadastro sem informar preço
+test('CT07 - Cadastro sem informar preço deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o preço vazio.
+ await preencherProduto(page, 'Alicate de unha', 'Beleza', '', '12', 'Alicate inox', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('O preço é obrigatório.');
+});
