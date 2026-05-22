@@ -103,3 +103,15 @@ test('CT04 - Nome no limite mínimo deve ser cadastrado com sucesso', async ({ p
  await expect(page.locator('#mensagem')).toHaveText('Produto cadastrado com sucesso.');
 });
 
+// CT05 - Nome acima do tamanho máximo
+test('CT05 - Nome acima do tamanho máximo deve exibir mensagem de erro', async ({ page }) => {
+ // Abre a tela de cadastro.
+ await abrirTelaCadastro(page);
+ // Preenche o formulário deixando o nome com um texto muito grande.
+ await preencherProduto(page, 'Produto com nome extremamente grande ultrapassando o limite permitido pelo sistema de cadastro',
+   'Casa', '20', '3', 'Produto para teste', 'Ativo');
+ // Clica em salvar.
+ await salvarProduto(page);
+ // Verifica se a mensagem correta apareceu.
+ await expect(page.locator('#mensagem')).toHaveText('O nome do produto deve ter no máximo 80 caracteres.');
+});
