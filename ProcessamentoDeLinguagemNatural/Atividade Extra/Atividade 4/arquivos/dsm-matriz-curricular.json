@@ -1,0 +1,316 @@
+{
+  "curso": "Desenvolvimento de Software Multiplataforma",
+  "sigla": "DSM",
+  "matriz": [
+    {
+      "semestre": 1,
+      "disciplinas": [
+        {
+          "nome": "Algoritmos e Lógica de Programação",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Desenvolvimento Web I",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Design Digital",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Engenharia de Software I",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Modelagem de Banco de Dados",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Sistemas Operacionais e Redes de Computadores",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        }
+      ]
+    },
+    {
+      "semestre": 2,
+      "disciplinas": [
+        {
+          "nome": "Técnicas de Programação I",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Desenvolvimento Web II",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Matemática para Computação",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Engenharia de Software II",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Banco de Dados – Relacional",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Estrutura de Dados",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        }
+      ]
+    },
+    {
+      "semestre": 3,
+      "disciplinas": [
+        {
+          "nome": "Técnicas de Programação II",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Desenvolvimento Web III",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Álgebra Linear",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Gestão Ágil de Projetos de Software",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Banco de Dados - Não Relacional",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Interação Humano Computador",
+          "modalidade": "presencial",
+          "presencial": 40,
+          "remota": 0,
+          "carga_horaria": 40
+        },
+        {
+          "nome": "Inglês I",
+          "modalidade": "presencial",
+          "presencial": 40,
+          "remota": 0,
+          "carga_horaria": 40
+        }
+      ]
+    },
+    {
+      "semestre": 4,
+      "disciplinas": [
+        {
+          "nome": "Integração e Entrega Contínua",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Laboratório de Desenvolvimento Web",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Internet das Coisas e Aplicações",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Programação para Dispositivos Móveis I",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Estatística Aplicada",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Experiência do Usuário",
+          "modalidade": "presencial",
+          "presencial": 40,
+          "remota": 0,
+          "carga_horaria": 40
+        },
+        {
+          "nome": "Inglês II",
+          "modalidade": "presencial",
+          "presencial": 40,
+          "remota": 0,
+          "carga_horaria": 40
+        }
+      ]
+    },
+    {
+      "semestre": 5,
+      "disciplinas": [
+        {
+          "nome": "Computação em Nuvem I",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Aprendizagem de Máquina",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Lab. de Des. para Dispositivos Móveis",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Programação para Dispositivos Móveis II",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Segurança no Des. de Aplicações",
+          "modalidade": "presencial",
+          "presencial": 80,
+          "remota": 0,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Fundamentos da Redação Técnica",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 40,
+          "carga_horaria": 40
+        },
+        {
+          "nome": "Inglês III",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 40,
+          "carga_horaria": 40
+        }
+      ]
+    },
+    {
+      "semestre": 6,
+      "disciplinas": [
+        {
+          "nome": "Computação em Nuvem II",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 80,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Processamento de Linguagem Natural",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 80,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Laboratório de Des. Multiplataforma",
+          "modalidade": "semi",
+          "presencial": 20,
+          "remota": 60,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Mineração de Dados",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 80,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Qualidade e Testes de Software",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 80,
+          "carga_horaria": 80
+        },
+        {
+          "nome": "Ética Profissional e Patente",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 40,
+          "carga_horaria": 40
+        },
+        {
+          "nome": "Inglês IV",
+          "modalidade": "remota",
+          "presencial": 0,
+          "remota": 40,
+          "carga_horaria": 40
+        }
+      ]
+    }
+  ]
+}
