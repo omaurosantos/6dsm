@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Arquivos gerados ao executar os scripts
+parte1/render_relatorio_parte1/
+parte1/Relatorio_Projeto_Final_Parte1_Regras_Associacao.docx
+parte2/Relatorio_Projeto_Final_Parte2_Housing.docx
